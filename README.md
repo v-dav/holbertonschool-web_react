@@ -1,5 +1,7 @@
 # React Web
 
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white)](https://reactjs.org/)
+
 Welcome to the React Web repository! This repository is dedicated to storing all my projects related to React, a popular JavaScript library for building user interfaces.
 
 ---
