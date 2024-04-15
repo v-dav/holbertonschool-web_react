@@ -1,1 +1,23 @@
-# React web
+# React Web
+
+Welcome to the React Web repository! This repository is dedicated to storing all my projects related to React, a popular JavaScript library for building user interfaces.
+
+---
+
+## 🧐 Project Overview:**
+
+React is widely used for building interactive and dynamic web applications. This repository serves as a centralized location for managing and organizing my React projects.
+
+---
+
+## 📖 Learning Objectives:
+
+- Gain proficiency in React fundamentals such as components, props, and state management
+- Explore advanced React concepts like context, hooks, and higher-order components
+- Practice building real-world applications using React and other related technologies
+- Learn about popular React libraries and tools for enhancing development workflow
+- Experiment with different React project structures and best practices to improve code quality and maintainability
+
+##  🙇 Author
+
+[Vladimir Davidov](https://github.com/v-dav) - Holberton School
