@@ -29,10 +29,13 @@ studentsList.forEach((student) => {
 	const row = document.createElement("tr") as HTMLTableRowElement;
 	const firstName = document.createElement('td') as HTMLTableCellElement;
 	const location = document.createElement('td') as HTMLTableCellElement;
-	
+
 	firstName.innerHTML = student.firstName;
 	location.innerHTML = student.location;
 
 	row.appendChild(firstName);
 	row.appendChild(location)
+	table.appendChild(row)
 })
+
+
