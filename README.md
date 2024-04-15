@@ -9,7 +9,7 @@ Welcome to the React Web repository! This repository is dedicated to storing all
 
 ---
 
-## 🧐 Project Overview:**
+## 🧐 Project Overview:
 
 React is widely used for building interactive and dynamic web applications. This repository serves as a centralized location for managing and organizing my React projects.
 
