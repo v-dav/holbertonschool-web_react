@@ -34,6 +34,9 @@ This repository is dedicated to learning and practicing TypeScript, a strongly t
 
 # Personal Notes
 
+![image](https://github.com/v-dav/holbertonschool-web_react/assets/115344057/8ba2d69c-5c51-48ce-a183-e7140e6a91d0)
+
+
 ## Basic types in Typescript
 
 1. **Number**: Represents numbers, whether they are integers or floating-point.
