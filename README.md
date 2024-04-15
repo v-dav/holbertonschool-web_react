@@ -1,5 +1,8 @@
 # React Web
 
+![image](https://github.com/v-dav/holbertonschool-web_react/assets/115344057/b14180a2-29cc-4fc6-88c4-b34c880b3970)
+
+
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white)](https://reactjs.org/)
 
 Welcome to the React Web repository! This repository is dedicated to storing all my projects related to React, a popular JavaScript library for building user interfaces.
