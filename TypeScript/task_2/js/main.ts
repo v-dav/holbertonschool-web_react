@@ -106,3 +106,10 @@ export function executeWork(employee: DirectorInterface | TeacherInterface): str
 		return employee.workTeacherTasks();
 	}
 }
+
+export type Subjects = 'Math' | 'History';
+
+export function teachclass(todayClass: Subjects): string {
+	if (todayClass === 'Math') { return 'Teaching Math' };
+	if (todayClass === 'History') { return 'Teaching History' };
+}
