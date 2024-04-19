@@ -1,9 +1,7 @@
-import * as $ from 'jquery';
+import $ from "jquery";
 
 $(function() {
-    const p1 = $('<p></p>').text('Holberton Dashboard').appendTo(document.body);
-
-    const p2 = $('<p></p>').text('Dashboard data for the students').appendTo(document.body);
-
-    const p3 = $('<p></p>').text('Copyright - Holberton School').appendTo(document.body);
+    $('body').append('<p>Holberton Dashboard</p>');
+    $('body').append('<p>Dashboard data for the students</p>');
+    $('body').append('<p>Copyright - Holberton School</p>');
 });
