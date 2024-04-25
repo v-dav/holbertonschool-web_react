@@ -1,44 +1,44 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  entry: './src/index.js',
+  mode: "development",
+  devtool: "inline-source-map",
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/',
+    filename: "bundle.js",
+    path: path.resolve("./dist"),
   },
   devServer: {
     hot: true,
-    port: 3000,
+    contentBase: path.resolve("./dist"),
+    compress: true,
+    port: 8564,
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        loader: "babel-loader",
       },
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+        use: ["babel-loader"],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
-          'file-loader',
+          "file-loader",
           {
-            loader: 'image-webpack-loader',
+            loader: "image-webpack-loader",
             options: {
-              bypassOnDebug: true,
-              disable: true,
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
             },
           },
         ],
       },
     ],
   },
-  resolve: {
-    extensions: ['.js', '.jsx'],
-  },
-  devtool: 'inline-source-map',
 };
