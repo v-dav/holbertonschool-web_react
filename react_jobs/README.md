@@ -4,6 +4,8 @@
 ![Node.js](https://img.shields.io/badge/Node.js-14.17.6-green)
 ![Vite](https://img.shields.io/badge/Vite-2.6.14-yellow)
 
+![screen](https://github.com/v-dav/holbertonschool-web_react/assets/115344057/9a261f2f-4316-4862-bf77-4fd2657a6516)
+
 # 🧐 Project overview
 
 This project is an educational application created to learn the basic features of React. It provides hands-on experience with React concepts and functionality.
