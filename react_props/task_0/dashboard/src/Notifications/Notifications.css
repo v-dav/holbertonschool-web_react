@@ -1,0 +1,21 @@
+.Notifications {
+    border: 1px dashed red;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Notifications ul {
+    margin: 20px 0 0 40px;
+}
+
+.Notifications ul li[data-priority="default"]{
+    color: blue
+}
+
+.Notifications ul li[data-priority="urgent"]{
+    color: red
+}
+
+.Notifications ul li:last-child {
+    color: red;
+}
