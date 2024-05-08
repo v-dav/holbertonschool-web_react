@@ -1,0 +1,14 @@
+/* ============footer =================== */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  /* ================================== */
