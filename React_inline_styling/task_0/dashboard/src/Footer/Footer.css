@@ -1,14 +1,15 @@
-/* ============footer =================== */
-.footer {
+:root {
+    --holberton-red: #e1484c;
+}
+
+.App-footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer p {
-    font-size: 18px;
-    font-style: italic;
-    font-weight: bold;
-  }
-  
-  /* ================================== */
+}
+
+.App-footer p {
+    text-align: center;
+    border-top: 3px solid var(--holberton-red);
+    padding: 16px 0;
+}
