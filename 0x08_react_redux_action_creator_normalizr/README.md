@@ -3,6 +3,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
+![image](https://github.com/v-dav/holbertonschool-web_react/assets/115344057/458360eb-78cf-4c7b-b235-7c5d15e46313)
+
+
 
 ## 🧐 Project Description
 
